@@ -1,7 +1,7 @@
 # Site settings
 title: Bittersweet-Choc
 SEOTitle: Bittersweet-Choc Blog
-header-img: img/post-bg-desk.jpg
+header-img: img/desk.jpg
 email: czh533143@163.com
 description: "Hey"
 url: "http://bittersweet-chocolate.github.io"          # your host, for absolute URL
@@ -85,7 +85,7 @@ gitalk:
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
 
 
 
