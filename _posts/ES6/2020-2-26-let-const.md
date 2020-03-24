@@ -1,0 +1,49 @@
+---
+layout:     post
+title:      let const 
+subtitle:   加深印象
+date:       2020-2-26
+author:     BY czh
+header-img: img/desk.jpg
+catalog: true
+tags:
+    - 块级作用域
+    - ES6
+---
+
+### ES6中的let const
+
+`let`：个人理解
+
+举例：
+
+```
+// 没有变量提升
+console.log(a) // 报错
+let a = 1  
+
+// window不存在b
+let b = 2
+console.log('b' in window) // false
+
+// 不允许重复定义
+let c = 2
+let c = 1  // 报错 c 已被声明
+
+//  typeof 的不安全操作
+typeof x; // ReferenceError
+let x;
+typeof undeclared_variable // "undefined"
+```
+
+* let不存在变量提升（当前作用域中，不能再let声明前使用变量）
+* 同一个作用域中，let不允许重复声明
+* let造成typeof的一个暂时性死区问题
+* 全局作用域中，let声明的变量没有给window加上对应属性
+* let会存在块作用域
+
+`const`：个人理解
+
+* 同let性质
+* const定义变量不能改变
+
