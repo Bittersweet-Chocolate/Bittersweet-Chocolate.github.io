@@ -27,15 +27,72 @@ header-img: "img/about.jpg"
     <p>同样为了充实自己，除了博客之外。近期还弄了三个小项目</p>
 
     <h3>Projects</h3>
-
+    <div>
+        <h5>微信天气卡片</h5>
+        <img src="/img/projects/weather/showWeather.png" width="250" height="300" alt="天气卡片">
+        <ul style="list-style: none;">
+            <li>
+                <strong>项目介绍：</strong>
+                基于和风天气API获取天气信息，用小程序中的picker（mode="region"）来获取各地市、userLocation获取用户当前位置。
+                使用小程序的animate添加地市转换时的动画效果。
+                UI设计美观，自动获取用户当前位置天气，同时可以切换城市查看不同城市天气
+            </li>
+            <li>
+                <strong>项目技术：</strong> JS、Echarts.js，Prism.js
+            </li>
+            <li>
+                <div style="display:flex">
+                    <div>
+                        源码地址：<a href="https://github.com/Bittersweet-Chocolate/wx-weather" target="_blank">天气卡片</a>
+                    </div>
+                    <div>
+                        体验版本：目前尚未上线，以下是体验版二维码
+                        <img src="/img/projects/weather/mark.jpg" width="250" height="250" alt="二维码"></a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <h5>Vue音乐</h5>
+        <img src="/img/projects/music/music.png" width="250" height="300" alt="Vue音乐">
+        <ul style="list-style: none;">
+            <li>
+                <strong>项目介绍：</strong>
+                基于<span class="highlight">NeteaseCloudMusicApi</span>开发，作为自己对于Vue的深入使用项目。
+                用Vue CLI 脚手架创建项目，引入了 babel、sass、router、vuex, eslint已经<span class="highlight">Mint UI</span>作交互。
+                目前实现，歌单列表信息，歌曲播放，刷新歌单，排行信息，搜索歌曲等功能
+                通过VueRoter实现<span class="highlight">路由的跳转、拦截跳转</span>等，
+                通过Vuex(state、mutations、actions、<span
+                    class="highlight">...mapState、...mapAction</span>)实现状态管理，进行多组件之间信息传递。
+                用 Axios 实现<span class="highlight">异步加载、获取数据</span>，并对Axios进行了二次封装。
+                模块化管理，定义全局统一文件，方便各组件调用及修改。
+            </li>
+            <li>
+                <strong>项目技术：</strong> Vue.cli、Vue、Vuex、VueRoter、Axios、Mint UI
+            </li>
+            <li>
+                <div style="display:flex">
+                    <div style="flex:1">
+                        源码地址：<a href="https://github.com/Bittersweet-Chocolate/vue-music" target="_blank">vue-music</a>
+                    </div>
+                    <div style="flex:1">
+                        展示地址：<a href="https://bittersweet-chocolate.github.io/vue-music" target="_blank">Vue音乐</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
     <div>
         <h5>3d图形绘制</h5>
         <img src="/img/projects/draw3d/echarts.png" width="650" height="300" alt="3d图形绘制">
         <ul style="list-style: none;">
             <li>
                 <strong>项目介绍：</strong>
-                动态显示<span class="highlight">Echarts</span>绘制一个图形的过程。可以控制绘制快慢，以及对绘制图形的触控等操作。
-                该作品主要是通过定时器按行读取设定的内容，在使用eval方法执行读取的内容。同样为了JavaScript在html上的美观使用Prism.js进行展示。
+                动态显示<span class="highlight">Echarts</span>绘制一个图形的过程。可以<span class="highlight">控制绘制快慢</span>，以及对<span
+                    class="highlight"></span>触控绘制图形方大缩小</span>等操作。
+                该作品主要是通过定时器按行读取设定的内容，在使用<span class="highlight">eval</span>方法执行读取的内容。
+                同样为了JavaScript在html上的美观使用<span class="highlight">Prism.js</span>进行展示。
             </li>
             <li>
                 <strong>项目技术：</strong> JS、Echarts.js，Prism.js
@@ -53,31 +110,6 @@ header-img: "img/about.jpg"
             </li>
         </ul>
     </div>
-    <!-- <div>
-    <li>Vue音乐：利用NeteaseCloudMusicApi，利用Vue.cli、Vue、Vuex、VueRoter、axios实现音乐在线播放器
-        <img src="/img/projects/music/music.png" width="250" height="300" alt="Vue音乐">
-        <div style="display:flex">
-            <div style="flex:1">
-                源码地址：<a href="https://github.com/Bittersweet-Chocolate/vue-music" target="_blank">vue-music</a>
-            </div>
-            <div style="flex:1">
-                展示地址：<a href="https://bittersweet-chocolate.github.io/vue-music" target="_blank">Vue音乐</a>
-            </div>
-        </div>
-    </li>
-    <li>微信天气卡片：使用和风天气API，微信原生组件开发。UI设计美观，自动获取用户当前位置天气，同时可以切换城市查看不同城市天气
-        <img src="/img/projects/weather/showWeather.png" width="250" height="300" alt="天气卡片">
-        <div>
-            <div>
-                源码地址：<a href="https://github.com/Bittersweet-Chocolate/wx-weather" target="_blank">天气卡片</a>
-            </div>
-            <div>
-                体验版本：
-                <img src="/img/projects/weather/mark.jpg" width="250" height="250" alt="二维码"></a>
-            </div>
-        </div>
-    </li>
-    </ul> -->
 </div>
 
 
