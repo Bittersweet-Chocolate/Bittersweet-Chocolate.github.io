@@ -33,8 +33,8 @@ header-img: "img/about.jpg"
         <ul style="list-style: none;">
             <li>
                 <strong>项目介绍：</strong>
-                基于和风天气API获取天气信息，用小程序中的picker（mode="region"）来获取各地市、userLocation获取用户当前位置。
-                使用小程序的animate添加地市转换时的动画效果。
+                基于<span class="highlight">和风天气API</span>获取天气信息，用小程序中的<span class="highlight">picker(mode="region")</span>来获取各地市、<span class="highlight">userLocation</span>获取用户当前位置。
+                使用小程序的<span class="highlight">animate</span>添加地市转换时的动画效果。
                 UI设计美观，自动获取用户当前位置天气，同时可以切换城市查看不同城市天气
             </li>
             <li>
@@ -42,10 +42,10 @@ header-img: "img/about.jpg"
             </li>
             <li>
                 <div style="display:flex">
-                    <div>
+                    <div style="flex:1">
                         源码地址：<a href="https://github.com/Bittersweet-Chocolate/wx-weather" target="_blank">天气卡片</a>
                     </div>
-                    <div>
+                    <div style="flex:1">
                         体验版本：目前尚未上线，以下是体验版二维码
                         <img src="/img/projects/weather/mark.jpg" width="250" height="250" alt="二维码"></a>
                     </div>
@@ -60,11 +60,12 @@ header-img: "img/about.jpg"
             <li>
                 <strong>项目介绍：</strong>
                 基于<span class="highlight">NeteaseCloudMusicApi</span>开发，作为自己对于Vue的深入使用项目。
-                用Vue CLI 脚手架创建项目，引入了 babel、sass、router、vuex, eslint已经<span class="highlight">Mint UI</span>作交互。
+                用Vue CLI 脚手架创建项目，引入了 babel、sass、router、vuex, eslint以及<span class="highlight">Mint UI</span>作交互。
                 目前实现，歌单列表信息，歌曲播放，刷新歌单，排行信息，搜索歌曲等功能
                 通过VueRoter实现<span class="highlight">路由的跳转、拦截跳转</span>等，
                 通过Vuex(state、mutations、actions、<span
                     class="highlight">...mapState、...mapAction</span>)实现状态管理，进行多组件之间信息传递。
+                通过引入animate.css对组件数据加载开启动画效果。    
                 用 Axios 实现<span class="highlight">异步加载、获取数据</span>，并对Axios进行了二次封装。
                 模块化管理，定义全局统一文件，方便各组件调用及修改。
             </li>
