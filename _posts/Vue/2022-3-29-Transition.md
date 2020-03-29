@@ -2,7 +2,7 @@
 layout:     post
 title:      Transition-group
 subtitle:   Vue和Animate设置列表动画
-date:       2020-3-21
+date:       2020-3-29
 author:     BY czh
 header-img: img/desk.jpg
 catalog: true

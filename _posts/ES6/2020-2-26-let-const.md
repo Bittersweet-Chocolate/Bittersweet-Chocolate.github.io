@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      let const 
+title:      let/const 
 subtitle:   加深印象
 date:       2020-2-26
 author:     BY czh
