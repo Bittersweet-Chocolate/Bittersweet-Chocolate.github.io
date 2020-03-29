@@ -46,4 +46,11 @@ typeof undeclared_variable // "undefined"
 
 * 同let性质
 * const定义变量不能改变
+* 当const 定义对象时，因为指向对象的地址，对象的内部属性还是可以更改
 
+例如：
+```
+const obj = { name:'a' }
+obj.name='b'
+console.log(obj)  // => { name:'b' }
+```
