@@ -7,8 +7,8 @@ author:     BY czh
 header-img: img/desk.jpg
 catalog: true
 tags:
-    - vue
-    - vue transition-group
+    - Vue
+    - Vue transition-group
 ---
 
 ###  Vue transition-group
