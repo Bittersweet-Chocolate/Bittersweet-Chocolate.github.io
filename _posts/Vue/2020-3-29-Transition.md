@@ -13,7 +13,7 @@ tags:
 
 ###  Vue transition-group
 
-版本：@vue/cli 4.2.3
+>版本：@vue/cli 4.2.3
 
 目的：利用`animate.css`和Vue自带组件`transition-group`设置列表动画
 
