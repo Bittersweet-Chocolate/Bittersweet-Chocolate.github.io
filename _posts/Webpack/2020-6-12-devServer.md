@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      webPack
-subtitle:   devServer
+title:      devServer
+subtitle:   重要的知识点
 date:       2020-6-12
 author:     BY czh
 header-img: img/webpack.png
