@@ -7,10 +7,11 @@ author:     BY czh
 header-img: img/webpack.png
 catalog: true
 tags:
-		- webPack
-		- devServer
+    - webPack
+    - devServer
 ---
 
-### devServer
+###  devServer
 
->版本：webpack -v `4.42.1`
+>版本：webpack 4.42.1
+
